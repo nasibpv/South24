@@ -8,4 +8,44 @@
     height: 550px;
     min-width: 100%;
     background-size: cover;
+    
+}
+.our-services{
+    background-color: rgb(108, 33, 33);
+    padding: 35px;
+    margin-top: -50px;
+    color: white;
+    border-radius: 15px;
+}
+.service{
+    margin-bottom: 15px;
+}
+.service:hover{
+    font-size: 30px;
+    text-decoration:underline;
+}
+p{
+    font-size: 20px;
+}
+
+.content-name{
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    
+   
+}
+img{
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("https://i.postimg.cc/sDmfQ6x7/Used-Car-Dealers-Dealership-Keys.jpg");
+    transition: all .2s ease-in-out;
+}
+img:hover{
+    background-image: url("https://i.postimg.cc/sDmfQ6x7/Used-Car-Dealers-Dealership-Keys.jpg");
+   transform:scale(1.1);
+   background-size: 200px;
 }
