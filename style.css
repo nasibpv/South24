@@ -8,6 +8,7 @@
     height: 550px;
     min-width: 100%;
     background-size: cover;
+
     
 }
 .our-services{
@@ -27,7 +28,9 @@
 p{
     font-size: 20px;
 }
-
+.content{
+    width: 75%;
+}
 .content-name{
     margin-top: 25px;
     font-size: 40px;
@@ -45,7 +48,49 @@ img{
     transition: all .2s ease-in-out;
 }
 img:hover{
-    background-image: url("https://i.postimg.cc/sDmfQ6x7/Used-Car-Dealers-Dealership-Keys.jpg");
+    /* background-image: url("https://i.postimg.cc/sDmfQ6x7/Used-Car-Dealers-Dealership-Keys.jpg"); */
    transform:scale(1.1);
    background-size: 200px;
 }
+.about{
+    /* background-color: thistle; */
+    width: 100%;
+    padding: 25px;
+    background-image: url("https://i.postimg.cc/QMFkMPC7/photo-1611659934318-06fd70ced53c.jpg");
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.about p{
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer-data{
+    float: left;
+    width: 100%;
+    background-color: tomato;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-size: larger;
+}
+.link a:hover{
+    text-decoration:underline blue;
+}
+
+@media screen and (max-width: 400px) {
+    .our-services{
+        padding: 15px;
+        
+    }
+    .content{
+        width: 95%;
+    }
+  }
